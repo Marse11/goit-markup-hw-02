@@ -1,0 +1,40 @@
+/*------------------Cтудия---------------------*/
+body {
+  background-color: #ffffff;
+  color: #212121;
+}
+
+.list {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.contacts .link {
+  color: #757575;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: #2196f3;
+}
+
+/*-----Hero-----*/
+.hero .title {
+  color: #ffffff;
+}
+
+.section .title {
+  color: #212121;
+}
+
+.section .subtitle {
+  color: #212121;
+}
