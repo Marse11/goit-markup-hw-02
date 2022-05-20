@@ -1,7 +1,14 @@
 /*------------------Cтудия---------------------*/
+:root {
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+}
+
 body {
-  background-color: #ffffff;
-  color: #212121;
+  background-color: var(--background-color);
+  color: var(--title-text-color);
 }
 
 .link {
@@ -13,32 +20,42 @@ body {
 }
 
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .contacts .link {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 .contacts .link:hover,
 .contacts .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /*-----Hero-----*/
 .hero .title {
-  color: #ffffff;
+  color: var(--background-color);
+}
+
+/*--------Benefits--------*/
+
+.benefits .subtitle {
+  color: var(--title-text-color);
+}
+/*Текст не преобретает цвет*/
+.benefits .text {
+  color: var(--primary-text-color);
 }
 
 .section .title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .section .subtitle {
-  color: #212121;
+  color: var(--title-text-color);
 }
