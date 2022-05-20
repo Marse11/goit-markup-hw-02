@@ -21,17 +21,17 @@ body {
   list-style: none;
 }
 
-.logo-header,
-.logo-footer {
+.header-logo,
+.footer-logo {
   font-family: Raleway;
 }
 
-.site-nav .link {
+.header-list .link {
   color: var(--title-text-color);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.header-list .link:hover,
+.header-list .link:focus {
   color: var(--accent-color);
 }
 
@@ -60,10 +60,12 @@ body {
 .benefits .subtitle {
   color: var(--title-text-color);
 }
-/*Текст не преобретает цвет*/
-.benefits .text {
+
+.benefits-list .text {
   color: var(--primary-text-color);
 }
+
+/*--------Чем мы занимаемся--------*/
 
 .section .title {
   color: var(--title-text-color);
@@ -73,6 +75,16 @@ body {
   color: var(--title-text-color);
 }
 
+.section-list .text {
+  color: var(--primary-text-color);
+}
+
 .button {
   background-color: var(--accent-color);
+}
+
+/*------------Footer---------*/
+
+.address {
+  font-style: normal;
 }
