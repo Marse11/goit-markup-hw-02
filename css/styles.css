@@ -1,10 +1,11 @@
-/*------------------Cтудия---------------------*/
+/*------------------Стили Cтудия---------------------*/
 :root {
   --title-text-color: #212121;
   --primary-text-color: #757575;
   --accent-color: #2196f3;
   --primary-background-color: #ffffff;
   --secondary-background-color: #e5e5e5;
+  --accent-background-color: #2f303a;
 }
 
 body {
@@ -25,10 +26,24 @@ body {
 
 .header-logo,
 .footer-logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.header-studio {
+  color: var(--title-text-color);
 }
 
 .header-list .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
 
@@ -38,6 +53,10 @@ body {
 }
 
 .contacts .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 
@@ -92,4 +111,11 @@ body {
 
 .address {
   font-style: normal;
+}
+
+.footer {
+  background-color: var(--accent-background-color);
+}
+.footer-studio {
+  color: var(--primary-background-color);
 }
