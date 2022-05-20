@@ -21,6 +21,8 @@ body {
   list-style: none;
 }
 
+/*--------Header---------*/
+
 .header-logo,
 .footer-logo {
   font-family: Raleway;
@@ -49,10 +51,15 @@ body {
   color: var(--primary-background-color);
 }
 
+.button {
+  background-color: var(--accent-color);
+}
+
 /*--------Benefits--------*/
 .benefits {
   background-color: ;
 }
+
 .benefits .title {
   color: var(--title-text-color);
 }
@@ -67,20 +74,18 @@ body {
 
 /*--------Чем мы занимаемся--------*/
 
-.section .title {
+/*--------Наша команда--------*/
+
+.team .title {
   color: var(--title-text-color);
 }
 
-.section .subtitle {
+.team .subtitle {
   color: var(--title-text-color);
 }
 
-.section-list .text {
+.team-list .text {
   color: var(--primary-text-color);
-}
-
-.button {
-  background-color: var(--accent-color);
 }
 
 /*------------Footer---------*/
