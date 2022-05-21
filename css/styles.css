@@ -52,6 +52,10 @@ body {
   color: var(--accent-color);
 }
 
+/*.header-list .current {
+  color: var(--accent-color);
+}*/
+
 .contacts .link {
   font-weight: 500;
   font-size: 14px;
@@ -65,7 +69,7 @@ body {
   color: var(--accent-color);
 }
 
-/*-----Hero-----*/
+/*-------------Hero-------------*/
 .hero .title {
   color: var(--primary-background-color);
 }
