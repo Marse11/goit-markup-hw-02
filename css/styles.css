@@ -112,47 +112,77 @@ body {
 }
 
 /*--------Benefits--------*/
-.benefits {
-  background-color: ;
+
+.benefits-title {
+  visibility: hidden;
 }
 
-.benefits .title {
-  color: var(--title-text-color);
-}
-
-.benefits .subtitle {
+.benefits-subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--title-text-color);
 }
 
 .benefits-list .text {
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
 /*--------Чем мы занимаемся--------*/
 
-/*--------Наша команда--------*/
-
-.team .title {
+.services-title,
+.team-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
-.team .subtitle {
+/*--------Наша команда--------*/
+
+.team {
+  background-color: var(--secondary-accent-background-color);
+}
+
+.team-list {
+  background-color: var(--secondary-background-color);
+}
+
+.team-list .team-subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
 .team-list .text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
 /*------------Footer---------*/
-
-.address {
-  font-style: normal;
-}
 
 .footer {
   background-color: var(--accent-background-color);
 }
 .footer-studio {
   color: var(--secondary-background-color);
+}
+.address {
+  font-style: normal;
 }
