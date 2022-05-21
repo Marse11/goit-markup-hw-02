@@ -16,6 +16,19 @@ body {
   color: var(--title-text-color);
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .link {
   text-decoration: none;
 }
@@ -102,6 +115,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
   color: var(--secondary-background-color);
   background-color: var(--accent-color);
 }
@@ -112,10 +126,6 @@ body {
 }
 
 /*--------Benefits--------*/
-
-.benefits-title {
-  visibility: hidden;
-}
 
 .benefits-subtitle {
   font-style: normal;
@@ -200,6 +210,12 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.address-mail:hover,
+.address-mail:focus,
+.address-tel:hover,
+.address-tel:focus {
+  color: var(--accent-color);
+}
 /*---------------Стили Портфолио---------------*/
 
 .projects-button {
@@ -212,6 +228,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
   color: var(--title-text-color);
   background-color: var(--secondary-accent-background-color);
 }
