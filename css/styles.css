@@ -221,3 +221,23 @@ body {
   color: var(--secondary-background-color);
   background-color: var(--accent-color);
 }
+
+.example-list {
+  background-color: var(--secondary-background-color);
+}
+
+.example-list .example-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.example-list .example-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
