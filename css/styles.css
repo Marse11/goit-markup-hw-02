@@ -3,9 +3,11 @@
   --title-text-color: #212121;
   --primary-text-color: #757575;
   --accent-color: #2196f3;
-  --primary-background-color: #ffffff;
-  --secondary-background-color: #e5e5e5;
+  --secondary-accent-color: #188ce8;
+  --primary-background-color: #e5e5e5;
+  --secondary-background-color: #ffffff;
   --accent-background-color: #2f303a;
+  --secondary-accent-background-color: #f5f4fa;
 }
 
 body {
@@ -24,6 +26,10 @@ body {
 
 /*--------Header---------*/
 
+.header {
+  background-color: var(--secondary-background-color);
+}
+
 .header-logo,
 .footer-logo {
   font-family: Raleway, sans-serif;
@@ -40,6 +46,7 @@ body {
 }
 
 .header-list .link {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -57,6 +64,7 @@ body {
 }*/
 
 .contacts .link {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -70,12 +78,37 @@ body {
 }
 
 /*-------------Hero-------------*/
-.hero .title {
-  color: var(--primary-background-color);
+.hero {
+  background-color: var(--accent-background-color);
+}
+.hero-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-background-color);
 }
 
-.button {
+.hero-button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--secondary-background-color);
   background-color: var(--accent-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--secondary-accent-color);
 }
 
 /*--------Benefits--------*/
@@ -121,5 +154,5 @@ body {
   background-color: var(--accent-background-color);
 }
 .footer-studio {
-  color: var(--primary-background-color);
+  color: var(--secondary-background-color);
 }
