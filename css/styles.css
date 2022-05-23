@@ -216,14 +216,13 @@ body {
   background-color: var(--secondary-accent-background-color);
 }
 
-.projects-button .current {
+.projects-button.current {
   color: var(--secondary-background-color);
   background-color: var(--accent-color);
 }
 
 .projects-button:hover,
-.projects-button:focus,
-.projects-button:active {
+.projects-button:focus {
   color: var(--secondary-background-color);
   background-color: var(--accent-color);
 }
